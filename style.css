@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:  right center;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(14, 65, 14);
+    font-size: 100px;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 500px;
+}
+
+p{
+    text-align: left;
+    margin-left: 55px;
+    width: 500px;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    padding: 40px;
+   
+}
+a:hover{
+    /* cursor: pointer; */
+    color: rgba(255, 0, 0, 0.56);
+}
+
+    
+ul{
+    list-style-type: none;
+    font-weight: 1000;
+    font-size: large;
+}
+
+li{
+    display: inline;
+    
+} 
+
+ /* .navbar .list li > a {
+    text-decoration: none;
+}
+.navbar .list li a{
+    text-decoration: none;
+} */
+
+.list{
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+a.app{
+    text-align: right;
+    margin-left: 1200px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(9, 137, 118);
+    color: blanchedalmond;
+}
+
+.app:hover{
+    color: white;
+}
+
+.address{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
